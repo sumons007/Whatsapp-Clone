@@ -1,8 +1,8 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url = 'http://localhost:8000';
-
+//const url = 'http://localhost:8000';
+const url = 'https://updates.properwebtechnologies.co.in/whatsapp-clone';
 
 let gfs, gridfsBucket;
 const conn = mongoose.connection;
